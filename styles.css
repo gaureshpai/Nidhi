@@ -78,6 +78,11 @@ nav ul li a:hover {
     nav ul li a span {
         display: inline;
     }
+
+    .skill{
+        color: rgba(41, 24, 24, 0.739);
+        padding: 0px 10px 10px 10px;
+    }
 }
 
 
@@ -119,9 +124,14 @@ h2 {
     overflow: hidden;
 }
 
+.skill{
+    color: rgba(246, 241, 241, 0.739);
+    padding: 0px 10px 10px 10px;
+}
+
 .skill-progress {
     height: 100%;
-    background-color: #ecf0f1;
+    background-color: #76a4af;
     width: 0;
     transition: width 1s ease-in-out;
 }
@@ -133,7 +143,7 @@ h2 {
 }
 
 .certificate {
-    background-color: #fff;
+    background-color: #eee9cc;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -255,11 +265,11 @@ p {
 }
 
 .education-entry {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(183, 139, 230, 0.752);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
 }
 
